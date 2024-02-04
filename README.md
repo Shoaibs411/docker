@@ -50,7 +50,7 @@ Dockerfile reference :
 https://docs.docker.com/engine/reference/builder/
 
 ENTRYPOINT vs CMD
-The ENTRYPOINT specifies a command that will always be executed when the container starts. The CMD specifies arguments that will be fed to the ENTRYPOINT.
+ The ENTRYPOINT specifies a command that will always be executed when the container starts. The CMD specifies arguments that will be fed to the ENTRYPOINT.
 Both CMD and ENTRYPOINT instructions define what command gets executed when running a container. There are few rules that describe their co-operation.
 Dockerfile should specify at least one of CMD or ENTRYPOINT commands.
 ENTRYPOINT should be defined when using the container as an executable.
